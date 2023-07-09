@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('DreamShaper_v7_woman_anime_with_modest_clothing_say_hi_to_the_0.jpg');
+    background-position: center;
+    background-size:cover;
+    width:100%;
+    height: 90vh;
+    display: flex;
+}
+.name{
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    margin-left: 450px;
+    transition: 0.2s;
+}
+.name:hover{
+    font-size: 45px;
+}
+ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    margin-right: 60px;
+    padding: 10px;   
+    transition: 0.3s;
+    border: solid 2px transparent;
+}
+ul li a:hover{
+    font-size: 30px;
+    border: solid white 2px;
+    border-radius: 20px;
+    background-color: white;
+    color:rgba(35, 238, 238, 0.945);;
+}
+.cont{
+    margin-top: 160px;
+}
+
+.cont h1{
+    color: rgb(17, 255, 255);
+    margin-left: 1100px;
+    font-size: 45px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.cont h3{
+    color: azure;
+    margin-left: 900px;
+    font-size: 21px;
+    cursor: pointer;
+    transition: 0.3s;
+
+
+}
+.cont h2{
+    color: rgb(0, 255, 255);
+    margin-left: 1120px;
+    font-size: 33px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cont h1:hover{
+    font-size: 50px;
+}
+.bod{
+    background-color: white;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+.video1{
+    width:600px;
+    height:403px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.bod h2{
+    padding-left:70px ;
+    color: rgb(4, 238, 255);
+    font-size: 60px;
+}
+.bod h3{
+    padding-top: 0px;
+    padding-left: 50px;
+    color: rgb(52, 51, 51);
+    font-size: 25px;
+}
+.ht4{
+    color: rgba(0, 255, 255, 0.945);
+    width: 100%;
+    height: 53vh;
+    background-color: black;
+}
+.ht{
+    padding-left:45% ;
+    padding-top: 10px;
+}
+.videos{
+    display: flex;
+}
+.videos iframe{
+    margin-left: 15px;
+    width: 1400px;
+    height: 400px;
+}
+.yu{
+    width: 100%;
+    height:10vh ;
+}
+.yu a {
+    text-decoration: none;
+}
+.yu a h1{
+    padding-left: 830px;
+    color: black;
+    transition: 0.2s;
+}
+.yu a h1:hover{
+    font-size: 40px;
+}
+.bod2{
+    width: 100%;
+    height: 30vh; 
+    background-color: black;
+
+}
+.bod2 h2{
+    padding-left:43%;
+    font-size: 30px;
+    color: rgb(11, 255, 251);
+}
+.bod2 a{
+    text-decoration: none;
+}
+.bod2 img{
+    padding-left: 820px;
+}
+.bar{
+    display: block;
+    width: 25px;
+}
+@media(max-width:780px){
+    .nav ul li {
+        display: block;
+        padding-left: 0px;
+        margin: 0;
+    }
+    .navbar{
+        display: block
+    }
+    .cont h1 {
+        margin:0;
+    }
+    .cont h3 {
+        margin: 0;
+    }
+    .cont h2 {
+        margin:0;
+    }
+    .ht4{
+        height: 120vh;
+    }
+    .videos{
+        display: block;
+        padding-left: 150px;
+        
+    }
+    .videos iframe{
+        width: 400px;
+        height: 300px;
+
+    }
+    .yu a h1{
+        margin-right: 200px;
+        padding: 0;
+        padding-left: 200px;
+        transition: 0.3s;
+    }
+    .yu a h1:hover{
+        font-size: 35px;
+    }
+    .bod2 img{
+        padding: 0;
+    }
+
+
+
+}
+

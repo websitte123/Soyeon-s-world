@@ -1,0 +1,64 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('DreamShaper_v7_woman_anime_with_modest_clothing_say_hi_to_the_3.jpg');
+    background-position: center;
+    background-size:cover;
+    width:100%;
+    height: 100vh;
+    display: flex;
+}
+.name{
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    margin-left: 450px;
+    transition: 0.2s;
+}
+.name:hover{
+    font-size: 45px;
+}
+ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    margin-right: 60px;
+    padding: 10px;   
+    transition: 0.3s;
+    border: solid 2px transparent;
+}
+ul li a:hover{
+    font-size: 30px;
+    border: solid white 2px;
+    border-radius: 20px;
+    background-color: white;
+    color:rgba(35, 238, 238, 0.945);;
+}
+iframe{
+    width: 400px;
+    height: 300px;
+    padding-left:60px;
+    padding-top: 80px;
+}
+@media(max-width:780px){
+    .nav ul li {
+        display: block;
+        padding-left: 0px;
+        margin: 0;
+        
+    }
+    .navbar{
+        display: block;
+        
+    }
+}
